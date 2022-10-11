@@ -1,0 +1,77 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f7/View_from_behind_Hollywood_Sign_overlooking_LA.jpg);
+    background-position: center;
+    background-size: 100vw 100vh;
+}
+
+body h1{
+    font-size: 50px;
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    padding: 2px 8px;
+}
+
+#input_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    height: 30px;
+    width: 150px;
+    border-radius: 4px;
+    transition: width 0.4s ease-in-out;
+    border: 1px black solid;
+    padding: 3px;
+    
+}
+
+input:focus{
+    width: 15vw;
+}
+
+button{
+    width: 80px;
+    margin: 20px;
+    padding: 2px;
+    border: 1px black solid;
+    background-color: white;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: darkseagreen;
+    color: white;
+}
+
+#contenedor{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: whitesmoke;
+   padding: 5px;
+   border-radius: 4px;
+}
+
+#contenedor p{
+    margin: 3px;
+}
+
+
